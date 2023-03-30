@@ -1,0 +1,36 @@
+.item {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) 50px;
+  align-items: center;
+  background-color: #34495e;
+  color: white;
+  border-radius: 10px;
+}
+.title, .prices {
+  font-size: 18px;
+}
+.prices {
+  display: flex;
+  gap: 40px;
+}
+
+.old_price {
+  text-decoration: line-through;
+  color: #A2A2A2;
+}
+.price_disc{
+  color:#FFA3A3;
+  padding-left: 20px;
+}
+.del_btn{
+  background: transparent;
+  font-size: 20px;
+  color: #A2A2A2;
+  width: 100%;
+  aspect-ratio: 1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
